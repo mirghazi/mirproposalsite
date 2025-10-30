@@ -92,7 +92,7 @@
     margin-top: 30px;
     animation: fadeIn 1.5s ease-in-out;
   }
-  .form{
+  #form{
     display: none;
   }
 </style>
@@ -105,10 +105,10 @@
     <button id="noBtn">Reject 😢</button>
   </div>
   <div id="message"></div>
-<form  class="form" action="https://formsubmit.co/2b1305e68500db4b2a1e78c56cb12ece" method="POST">
-       <input type="text" id="res" value="" name="name" required>
-     <input class="form" value="mirghazi7@gmail.com" type="email" name="email" required>
-     <button id="submitBtn" type="submit">Send</button>
+<form  id= "form" action="https://formspree.io/f/xnnozoew" method="POST">
+  <input type="hidden" name="res" id="res">
+  
+  <button id="submitBtn" type="submit">Send</button>
 </form>
   <script>
     // Create floating flowers
